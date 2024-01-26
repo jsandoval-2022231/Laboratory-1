@@ -158,7 +158,28 @@ hr {
 }
 
 .school-kinal {
+  display: grid;
+  flex-direction: column;
+
+}
+
+.school-kinal h2 {
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.partners {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.partners img{
+  width: 150px;
+
 }
 
 .footer {

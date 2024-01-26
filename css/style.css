@@ -169,11 +169,6 @@ body {
   gap: 15px;
 }
 
-.technologies h1 {
-  justify-content: center;
-  align-items: center;
-}
-
 .technologies img {
   width: 350px;
   height: 300px;
