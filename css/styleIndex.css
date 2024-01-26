@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #081b29;
+  font-family: sans-serif;
+  color: #ededed;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.navbar a:hover {
+  color: #00abf0;
+}
+
+.wrapper {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  background: #081b29;
+}
+
+.wrapper h1 {
+  text-transform: uppercase;
+  font-size: 3ems;
+  margin: 25px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.card {
+  min-height: 220px;
+  width: 320px;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(15, 200, 120, 0.5);
+  margin: 10px 4px;
+}
+
+.card i {
+  margin: 20px;
+  color: black;
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card p {
+  color: #ededed;
+  text-align: justify;
+}
+
+.card:hover {
+  background: #00abf0;
+}
