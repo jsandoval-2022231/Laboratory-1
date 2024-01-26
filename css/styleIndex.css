@@ -54,8 +54,14 @@ body {
 
 .wrapper h1 {
   text-transform: uppercase;
-  font-size: 3ems;
+  font-weight: 800;
+  font-size: 3em;
   margin: 25px;
+}
+
+.wrapper p {
+  text-align: center;
+
 }
 
 .content-box {
@@ -81,13 +87,14 @@ body {
 
 .card i {
   margin: 20px;
-  color: black;
+  color: #06144c;
 }
 
 .card h2 {
   margin-bottom: 12px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
+  color: #081b29;
 }
 
 .card p {
