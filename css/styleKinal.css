@@ -66,10 +66,114 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #00abf0;
+  background-color: #7FC7D9;
 }
 
 .card-box .card p {
   justify-content: center;
   text-align: center;
+}
+
+.card-box-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+  padding: 5% 15%;
+}
+
+.card-box-2 .card {
+  min-height: 220px;
+  width: 320px;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: black solid 1px;
+  background-color: transparent;
+}
+
+.card-box-2 .card h3 {
+  text-transform: uppercase;
+  color: #081499;
+  text-align: center;
+  margin: 15px 0;
+
+}
+
+.card-box-2 .card p {
+  text-align: center;
+}
+.card-box-2 .card img {
+  width: 100%;
+}
+
+.relevant-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.relevant-information h1 {
+  text-transform: uppercase;
+  
+}
+.relevant-information p {
+  text-align: center;
+  margin: 25px;
+}
+
+.tips{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.tips .information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #081b29 solid 1px;
+  width: 300px;
+  padding: 25px;
+  background: #DCF2F1;
+}
+
+.tips img {
+  width: 500px;
+}
+.tips .information h2 {
+  margin: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.school-kinal {
+  display: flex;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #081b29;
+  color: #ededed;
+  z-index: 100;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #DCF2F1;
 }
