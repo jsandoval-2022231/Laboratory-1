@@ -1,4 +1,4 @@
-# Laboratory-1adfadadf
+# Laboratory-DAVID SANDOVAL
 
 En este nuevo rediseño de la página de Kinal, agregue una nueva imagen en el header de la página esto, ya que mi carrera
 es perito en informática, luego en las cards donde se encuentra la información sobre las carreras lo cambie a un celeste
