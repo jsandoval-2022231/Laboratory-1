@@ -116,17 +116,24 @@ hr {
 }
 
 .relevant-information {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 25px 40%;
-  background: #00abf0;
-  margin: -15px -200px;
+}
+
+svg {
+  position: absolute;
+  bottom: 28px;
+  height: 50%;
+  left: 0;
 }
 
 .relevant-information h1 {
   text-transform: uppercase;
+  color: black;
   font-size: 60px;
 }
 .relevant-information p {
